@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript - Introduction : Exercices</title>
+        <script type="text/javascript" src="/script.js"></script>
+        <script type="text/javascript" src="/script.js"></script>
+
+    </head>
+    <body style="padding: 20px;">
+        <script>
+
+
+
+
+            // Vous rédigerez le code nécessaire à la résolution de chaque exercice (bien lire les consignes).
+            // Les mots entre chevrons (ex : <name>) correspondront à la valeur des variables associées.
+            // Pour plus de lisibilité, vous commenterez le code des exercices précédents en passant à un nouvel exercice.
+            // Le projet sera à rendre via un nouveau dépôt disponible sur votre profil GitHub.
+
+            // == Exercice 1.1 ==
+            // Déclarez une variable : "nb" dont vous définirez librement la valeur.
+            // Vous afficherez le double de la valeur de "nb".
+
+
+            //    let nb = 2;
+
+            //    console.log(nb*2);
+
+
+            // == Exercice 1.2 ==
+            // Déclarez une variable : "nb" dont vous définirez librement la valeur.
+            // Vous afficherez le carré de la valeur de "nb".
+
+            //    let nb1_2 = 2;
+
+            //    console.log(nb1_2**2);
+
+                
+            // == Exercice 1.3 ==
+            // Déclarez trois variables : "name", "age" et "city" dont vous définirez librement les valeurs.
+            // Vous afficherez "Je m'appelle <name>, j'ai <age> ans et j'habite à <city>.".
+
+            //    let name1_3 = "Vincent";
+            //    let age1_3 = 29;
+            //    let city1_3 = "Clermont-Ferrand";
+
+            //    console.log("Je m'appelle " + name1_3 + ", j'ai " + age1_3 +  "ans et j'habite à " + city1_3 + ".")
+
+            // == Exercice 1.4 ==
+            // Déclarez autant de variables que nécessaire. Vous définirez les valeurs de chaque variable afin que 
+            // chaque type primitif soit représenté (hormis le type Symbol).
+            // Indice : il existe 6 types primitifs (sans compter le type Symbol).
+            // Vous afficherez chaque variable ainsi que son type.
+
+            //    let nb1_4 = 1 ;
+            //    let string = "string" ;
+            //    let boolean = true ;
+            //    let bigint = 9007199254740991n;
+            //    let qsdf = null;
+            //    let undefined
+
+            //    console.log (nb1_4 + " " +string + " " +boolean + " " + bigint + " " + qsdf + undefined) 
+
+            // == Exercice 2 ==
+            // La valeur de la variable "age" de l'Exercice 1 doit maintenant être de type 'number' et être calculée.
+            // Les valeurs des variables "name" et "city" peuvent être définies librement.
+            // Vous afficherez "Je m'appelle <name>, j'ai <age> ans et j'habite à <city>.".
+
+            //    let name2 = "Vincent";
+            //    let age2 = "2023" - "1994";
+            //    let city2 = "Clermont-Ferrand";
+
+            //    console.log("Je m'appelle " + name2 + ", j'ai " + age2 +  "ans et j'habite à " + city2 + ".")
+
+            // == Exercice 3 ==
+            // Déclarez trois variables : "name", "age" et "city" dont les valeurs seront définies par l'Utilisateur.
+            // Vous afficherez "Je m'appelle <name>, j'ai <age> ans et j'habite à <city>.".
+
+            //    let name3 = prompt("Quel est votre Nom ?");
+            //    let age3 = prompt("Quel est votre âge ?");
+            //    let city3 = prompt("Quel est votre ville ?");
+
+            //    console.log("Je m'appelle " + name3 + ", j'ai " + age3 +  "ans et j'habite à " + city3 + ".")
+
+            // == Exercice 4 ==
+            // Déclarez deux variables : "nb1" et "nb2" dont les valeurs seront définies par l'Utilisateur.
+            // Vous afficherez la somme, la différence ainsi que le produit des valeurs des variables "nb1" et "nb2".
+
+                let nb1 = Number(prompt("Quel est votre premier nombre ?"))  ;
+                let nb2 = Number(prompt("Quel est votre deuxième nombre ?"))  ;
+
+                console.log(nb1 + nb2);
+                console.log(nb1 - nb2);
+                console.log(nb1*nb2);
+
+            // == Exercice 5 ==
+            // Indiquez le résultat des opérations suivantes ansi que son type :
+            // Par exemple : 1 + 1 = 2 (number)
+            //
+            // "" + 1 + 0    = 
+            // "" - 1 + 0    = 
+            // true + false  = 
+            // 6 / "3"       = 
+            // "2" * "3"     = 
+            // 4 + 5 + "px"  = 
+            // "$" + 4 + 5   = 
+            // "4" - 2       = 
+            // "4px" - 2     = 
+            // "  -9  " + 5  = 
+            // "  -9  " - 5  = 
+            // null + 1      = 
+            // undefined + 1 = 
+            // " \t \n" - 2  = 
+                
+            //    let valeur1  =  "" + 1 + 0;
+            //    let valeur2  =  "" - 1 + 0 ;
+            //    let valeur3  =  true + false;
+            //    let valeur4  =  6 / "3";
+            //    let valeur5  =  "2" * "3";
+            //    let valeur6  =  4 + 5 + "px";
+            //    let valeur7  =  "$" + 4 + 5;
+            //    let valeur8  =  "4" - 2;
+            //    let valeur9  =  "4px" - 2;
+            //    let valeur10  =  "  -9  " + 5;
+            //    let valeur11  =  "  -9  " - 5;
+            //    let valeur12 =  null + 1;
+            //    let valeur13  =  undefined + 1;
+            //    let valeur14  =  " \t \n" - 2;
+
+            //    console.log (valeur1 + " (number)");
+            //    console.log (valeur2 + " (number)");
+            //    console.log (valeur3 + " (boolean)");
+            //    console.log (valeur4 + " (number)");
+            //    console.log (valeur5 + " (number)");
+            //    console.log (valeur6 + " (string)");
+            //    console.log (valeur7 + " (string)");
+            //    console.log (valeur8 + " (number)");
+            //    console.log (valeur9 + " (number)");
+            //    console.log (valeur10 + " (number)");
+            //    console.log (valeur11 + " (number)");
+            //    console.log (valeur12 + " (number)");
+            //    console.log (valeur13 + " (number)");
+            //    console.log (valeur14 + " (number)");
+
+
+
+
+        </script>
+    </body>
+</html>
